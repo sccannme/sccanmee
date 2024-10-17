@@ -1,0 +1,85 @@
+.fon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    /* width: 400px; */
+    height: 410px;
+    border-radius: mixed;
+    background-color: forestgreen;
+    border-radius: 0 0 160px 160px ;
+    background: linear-gradient( rgba(22,21,23,0.9612219887955182) 4%, rgba(255,255,255,0.9192051820728291) 100%);
+}
+
+.logo img{
+    width: 159px;
+    height: 157px;
+    border-radius: 50px;
+}
+
+.site .logo img{
+    margin-top: 50px;
+}
+
+.logo p{
+    font-size: 36px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.application{
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    background-color:rgba(62, 59, 57, 1);
+    border-radius: 20px;
+
+}
+
+.application .bi-instagram {
+    font-size: 60px;
+    color: white;
+}
+
+.application .bi-envelope{
+    font-size: 60px;
+    color: white;
+}
+
+.application img{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    color: rgb(245, 244, 244);
+    background-color: rgba(27, 27, 27, 0.836);
+    padding: 7px;
+    border-radius: 20px;
+}
